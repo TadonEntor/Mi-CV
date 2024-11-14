@@ -1,0 +1,126 @@
+/* Section About Me */
+
+#sobremi {
+    margin-top: -2%;
+    padding: 50px 10px;
+    height: 90vh;
+}
+#sobremi .contenido .fila{
+    display: flex;
+    align-items: center;
+}
+#sobremi .contenido .fila .col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.titulo-seccion{
+    font-size: 61px;
+    margin-bottom: 20px;
+}
+.resaltado{
+    color: #121492;
+    font-weight: normal;
+}
+#sobremi .contenido .fila .col > p{
+    font-size: 14px;
+    width: 350px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+#sobremi .contenido .fila .col .skills{ 
+    margin: 20px 0;
+}
+#sobremi .contenido .fila .col .skills p{
+    margin-right: 40px;
+}
+#sobremi .contenido .fila .col .skills .punto{
+    width: 10px;
+    height: 10px;
+    background-color: #121492;
+    display: inline-block;
+    margin-right: 15px;
+}
+#sobremi .contenido .fila .col .barra-skill{
+    width: 80%;
+    height: 20px;
+    border: 1px solid #121492;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#sobremi .contenido .fila .col .barra-skill span{
+    display: inline-block;
+    font-size: 10px;
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.progreso{
+    background-color: #121492;
+    width: 0%;
+}
+#sobremi .contenido .fila .col .circulo-principal {
+    width: 500px;
+    height: 500px;
+}
+/* relleno de la barra de skills */
+.html {
+    width: 0%;
+    animation: html 1.5s forwards;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.css{
+    width: 0%;
+    animation: css 1.5s forwards;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.python{
+    width: 0%;
+    animation: python 1.5s forwards;
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.english{
+    width: 0%;
+    animation: english 1.5s forwards;
+}
+@keyframes english {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+#sobremi .contenido .fila .col img{
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}

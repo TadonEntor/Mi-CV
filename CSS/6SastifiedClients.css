@@ -1,0 +1,79 @@
+/* PROJECTS DONE, SASTIFIED CLIENTS AND ONLINE COURSES BAR */
+#numeros{
+    background-color: #1d1d1d;
+    padding: 50px 10px;
+    box-shadow: 0 -5px 10px rgba(0,0,0,.5);
+}
+#numeros .fila{
+    display: flex;
+    justify-content: space-evenly;
+}
+#numeros .fila .col{
+    display: flex;
+    align-items: center;
+}
+#numeros .fila .col .mas{
+    font-size: 40px;
+    color: #121492;
+    display: block;
+}
+#numeros .fila .col .num{
+    width: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 15px 0 0;
+}
+/* SASTIFIED CLIENTS SECTION */
+#clientes{
+    padding: 50px 10px;
+}
+#clientes .contenido .fila{
+    display: flex;
+    justify-content: space-between;
+}
+#clientes .contenido .fila .col{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#clientes .contenido .fila .col .circulo-principal{
+
+    position: relative;
+    top: 25%;
+    
+    width: 450px;
+    height: 450px;
+}
+#clientes .contenido .fila .col img{
+    width: 450px;
+}
+#clientes .contenido .fila .col-cliente .cliente{
+    display: flex;
+    margin-bottom: 20px;
+}
+#clientes .contenido .fila .col-cliente .cliente img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#clientes .contenido .fila .col-cliente h2{
+    text-align: center;
+}
+#clientes .contenido .fila .col-cliente .cliente h3{
+    font-size: 15px;
+}
+#clientes .contenido .fila .col-cliente .cliente i{
+    font-size: 10px;
+    color: #fff;
+}
+.relleno{
+   color: #121492 !important;
+}
+#clientes .contenido .fila .col-cliente .cliente p{
+    font-size: 12px;
+    font-style: italic;
+}
